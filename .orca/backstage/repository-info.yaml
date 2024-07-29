@@ -26,6 +26,6 @@ metadata:
       type: url
 spec:
   type: repository
-  lifecycle: Unknown
+  lifecycle: unknown
   owner: orchestrator-team
   system: ""
