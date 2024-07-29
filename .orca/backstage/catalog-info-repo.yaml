@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: catalog-base-locations-amazon-ec2-image-builder-samples
+  labels:
+    repository: amazon-ec2-image-builder-samples
+  annotations:
+    github.com/project-slug: orcasecurity/amazon-ec2-image-builder-samples
+spec:
+  presence: optional
+  targets:
+    - ./repository-info.yaml
+    - ./catalog-component-locations.yaml
